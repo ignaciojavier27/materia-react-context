@@ -7,7 +7,6 @@ import { AuthProvider } from "../context/AuthContext.jsx";
 
 
 const MyPageContext = () => {
-
   return (
     <div className="my-page">
       <ThemeProvider>
@@ -15,8 +14,8 @@ const MyPageContext = () => {
           <AuthProvider>
             <HeaderContext />
             <MainContext />
-            <FooterContext />
           </AuthProvider>
+          <FooterContext />
         </LanguageProvider>
       </ThemeProvider>
     </div>
